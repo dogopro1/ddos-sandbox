@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DDoS Test Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+    button {
+      font-size: 3rem;
+      color: #fff;
+      background: #ff3c3c;
+      border: none;
+      border-radius: 12px;
+      padding: 30px 60px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      box-shadow: 0 0 20px rgba(255, 60, 60, 0.5);
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    button:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #aaa;
+    }
+    .box {
+      border: 2px dashed #ff3c3c;
+      padding: 40px;
+      border-radius: 10px;
+      background-color: #222;
+      box-shadow: 0 0 15px rgba(255, 60, 60, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <button onclick="location.reload();">Attack Me</button>
+    <p>This server is for local DDoS testing purposes only.</p>
+  </div>
+</body>
+</html>
+
