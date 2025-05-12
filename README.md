@@ -23,7 +23,7 @@ This folder contains various scripts that launch different types of attacks and 
 
 A shell script that uses `hping3` to perform a SYN flood attack on a target IP/URL. It simulates a high-traffic environment by continuously sending packets to the target.
 
-**Usage:**
+
 ```bash
 ./attack_test.sh <target> <port>
 
