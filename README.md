@@ -15,7 +15,6 @@ ddos-sandbox/
 └── public-html/
 └── index.html
 
-
 ### Folder: `attack-scripts/`
 
 This folder contains various scripts that launch different types of attacks and manage a local server.
